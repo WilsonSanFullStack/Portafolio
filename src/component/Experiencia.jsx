@@ -6,7 +6,6 @@ const Experiencia = () => {
     <div className={styles.container}>
       <h1 id={styles.h1}>EXPERIENCIA</h1>
       <div>
-        <p>
           <h2 id={styles.h2}>Full Stack Developer Junior</h2>
           <h3 id={styles.h3}>Pagina De Encuentros</h3>
           <h4 id={styles.h4}>Nomand Locals,</h4>
@@ -43,7 +42,6 @@ const Experiencia = () => {
             <li>Desarrollar sistema de chat general y personal. </li>
             <li>Desarrollar sistema de inicio de sesión con terceros</li>
           </ul>
-        </p>
         <p id={styles.p}>
           <strong id={styles.strong}>Del 27 de Junio Al 31 de Agosto 2023</strong>
         </p>
