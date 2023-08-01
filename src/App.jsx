@@ -1,12 +1,12 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 
-import Footer from "./component/Footer";
-import NavBar from "./component/NavBar";
-import Home from "./component/Home";
-import Estudios from "./component/Estudios";
-import Experiencia from "./component/Experiencia";
-import Contact from "./component/Contact";
+import Footer from "./component/Footer.jsx";
+import NavBar from "./component/NavBar.jsx";
+import Home from "./component/Home.jsx";
+import Estudios from "./component/Estudios.jsx";
+import Experiencia from "./component/Experiencia.jsx";
+import Contact from "./component/Contact.jsx";
 
 function App() {
   return (
