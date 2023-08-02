@@ -98,7 +98,7 @@ const Experiencia = () => {
                 <a href="https://github.com/Danogomez">GitHub</a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/daniel-gomez-5a1400199/">Linkedin</a>
+                <a href="https://www.linkedin.com/in/daniel-gomez-fullstack">Linkedin</a>
               </li>
             </ul>
           </section>
