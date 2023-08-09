@@ -9,5 +9,5 @@
   @apply m-2 p-2 bg-rose-200 rounded-xl font-extrabold text-center;
 }
 .contact {
-  @apply p-2 w-72 bg-rose-200 m-4;
+  @apply p-2 w-64 bg-rose-200 m-4;
 }

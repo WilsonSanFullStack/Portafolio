@@ -2,8 +2,8 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="bg-rose-100 flex">
-      <div className="m-5 grid-rows-3">
+    <div className="bg-rose-100 pt-12 min-h-screen flex items-center justify-center">
+      <div className="m-5 flex grid-rows-4">
         <div className="contact">
           <a href="https://github.com/WilsonSanFullStack">
             <img src="/github.png" alt="GitHub"  />
