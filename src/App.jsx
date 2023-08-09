@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 
 import Footer from "./component/Footer.jsx";
 import NavBar from "./component/NavBar.jsx";
@@ -9,16 +9,17 @@ import Experiencia from "./component/Experiencia.jsx";
 import Contact from "./component/Contact.jsx";
 
 function App() {
+  const { pathname } = useLocation();
   return (
-    <div>
-      <NavBar />
+    <div className="font-victor-mono">
+       {pathname !== '*' && <NavBar />}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/estudios" element={<Estudios />} />
         <Route path="/experiencia" element={<Experiencia />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-          <Footer/> 
+         {pathname !== '*' && <Footer/> }
     </div>
   );
 }

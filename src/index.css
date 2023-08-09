@@ -1,14 +1,13 @@
-body {
-  margin: 0;
-  font-family: 'Victor Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: 'Victor Mono', monospace;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: 'Victor Mono', source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.btn-n {
+  @apply bg-blue-700 rounded-md m-1 mx-5 px-1 font-semibold text-lg hover:bg-blue-400 active:bg-red-700;
+}
+.section {
+  @apply m-2 p-2 bg-rose-200 rounded-xl font-extrabold text-center;
+}
+.contact {
+  @apply p-2 w-72 bg-rose-200 m-4;
 }

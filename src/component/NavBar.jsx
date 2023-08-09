@@ -1,32 +1,23 @@
 import React from "react";
-import styles from "../styles/NavBar.module.css";
 import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
-  
   return (
-    <div
-      className={styles.containerNavBar}
-     
-    >
+    <div className="bg-blue-300 w-full flex justify-between items-center fixed top-0 z-10">
       <NavLink to="/">
-        <h2 className={styles.navlink}>Home</h2>
+        <button className="btn-n">Home</button>
       </NavLink>
 
       <NavLink to="/estudios">
-        <h2 className={styles.navlink}>Estudios</h2>
+        <h2 className="btn-n">Estudios</h2>
       </NavLink>
 
       <NavLink to="/experiencia">
-        <h2 className={styles.navlink}>Experiencia</h2>
+        <h2 className="btn-n">Experiencia</h2>
       </NavLink>
-      {/* 
-      <Link>
-        <h2 className={styles.navlink}>Servicios</h2>
-      </Link> */}
 
       <NavLink to="/contact">
-        <h2 className={styles.navlink}>Contact</h2>
+        <h2 className="btn-n">Contact</h2>
       </NavLink>
     </div>
   );
