@@ -7,6 +7,9 @@ const NavBar = () => {
       <NavLink to="/">
         <button className="btn-n">Home</button>
       </NavLink>
+      <NavLink to="/habilidades">
+        <button className="btn-n">Habilidades</button>
+      </NavLink>
 
       <NavLink to="/estudios">
         <h2 className="btn-n">Estudios</h2>
@@ -17,7 +20,7 @@ const NavBar = () => {
       </NavLink>
 
       <NavLink to="/contact">
-        <h2 className="btn-n">Contact</h2>
+        <h2 className="btn-n">Contacto</h2>
       </NavLink>
     </div>
   );

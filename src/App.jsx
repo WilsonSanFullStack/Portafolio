@@ -7,6 +7,7 @@ import Home from "./component/Home.jsx";
 import Estudios from "./component/Estudios.jsx";
 import Experiencia from "./component/Experiencia.jsx";
 import Contact from "./component/Contact.jsx";
+import Habilidades from "./component/habilidades.jsx";
 
 function App() {
   const { pathname } = useLocation();
@@ -18,6 +19,7 @@ function App() {
         <Route path="/estudios" element={<Estudios />} />
         <Route path="/experiencia" element={<Experiencia />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/habilidades" element={<Habilidades />} />
       </Routes>
          {pathname !== '*' && <Footer/> }
     </div>

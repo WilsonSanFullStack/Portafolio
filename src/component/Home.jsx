@@ -4,38 +4,45 @@ const Home = () => {
   return (
     <div className="bg-rose-100 min-h-screen pt-12 pb-12 justify-center items-center text-center">
       <div className="a text-5xl font-bold p-2">
-      <h1>!!!BIENVENIDOS!!!</h1>
+        <h1>!!!BIENVENIDOS!!!</h1>
       </div>
-      <h2 className="text-2xl p-5 font-bold">SOY WILSON SANCHEZ</h2>
-      <h2 className="font-bold text-xl">Programador Full Stack Con JavaScript</h2>
-      <div>
-        <div className="grid grid-cols-3 m-2 p-1 ">
-        <div className="bg-rose-200 rounded-xl text-lg m-5 p-2">
-          <p className="font-bold text-xl">Front-End</p>
-          <p>REACT.JS</p>
-          <p>REDUX.js</p>
-          <p>CSS</p>
-          <p>HTML</p>
-          <p>TAELWINDCSS</p>
-        </div>
-        <div className="bg-rose-200 rounded-xl text-lg m-5 p-2">
-          <p className="font-bold text-xl pb-3">Back-End</p>
-          <p>NODE.js</p>
-          <p>POSTGRESQL</p>
-          <p>SEQUELIZE</p>
-          
-          <br />
-        </div>
-        <div className="bg-rose-200 rounded-xl text-lg m-5 p-2">
-          <p className="font-bold text-xl">Otras</p>
-          <p>Trello</p>
-          <p>Git</p>
-          <p>GitFlow</p>
-          <p>GitHub</p>
-          <p>Slack</p>
-        </div>
+      <div className="flex">
+        <h2 className="text-2xl p-5 font-bold text-left mt-32 mx-auto">
+          SOY WILSON SANCHEZ
+        </h2>
+        <img
+          src="/foto.jpg"
+          alt="foto personal"
+          className="w-72 h-72 rounded-full  mx-auto"
+        />
+        <h2 className="font-bold text-2xl text-right mt-36 mx-auto">
+          Programador Web Con JavaScript
+        </h2>
       </div>
-      </div>
+
+      <p className="text-justify p-8 font-semibold text-lg">
+        Bueno aqui les quiero hablar un poco de quien soy, trabajador desde los
+        8 años en labores del campo, a mis 12 años reinicie mis estudios en
+        segundo primaria aprobando Segundo y Tercero de primaria, a mis 15 años
+        logre terminar mi primaria e inicie mi secundaria, cumpliendo 18 años
+        consegui llegar a octavo de secundaria siendo siempre el segundo alumno
+        con mejores notas del grado. En Abril del 2014 decidi hacer la Prueba
+        ICFES con la cual valide todo mi bachillerato, durante ese tiempo me
+        dedique a trabajar en la construccion pues el sueño que tenia de niño
+        era ser un ingeniero civil, mientras trabajaba en una empresa con
+        ingenieros, arquitectos y topografos, estudie 4 semestres de topografia
+        luego me retire debido a problemas economicos, cambio de ciudad y sigo
+        trabajando como ayudante de construccion, en Diciembre de 2018 llego a
+        bucaramanga realizo un curso de sistemas y consigo empleo como tecnico
+        en sistemas en donde despues de seis meses en el puesto encuentro a la
+        mujer mas hermosa y con la cual decido formar una relacion y producto de
+        esta relacion tenemos una hermosa niña a mi trabajo de sistema renuncie
+        tres años despues de estar trabajando en esa empresa y decido iniciar
+        mis estudios como programador y aqui me tienen disponible para realizar
+        el proyecto que pongan en mis manos entre mas desafiante sea mucho mejor
+        pues esto hara que adquiera mas experiencia en el campo y tambien me
+        esfuerze por entregar el mejor resultado.
+      </p>
     </div>
   );
 };
