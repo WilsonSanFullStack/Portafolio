@@ -7,7 +7,7 @@ import Home from "./component/Home.jsx";
 import Estudios from "./component/Estudios.jsx";
 import Experiencia from "./component/Experiencia.jsx";
 import Contact from "./component/Contact.jsx";
-import Habilidades from "./component/habilidades.jsx";
+import Habilidades from "./component/Habilidades.jsx";
 
 function App() {
   const { pathname } = useLocation();
