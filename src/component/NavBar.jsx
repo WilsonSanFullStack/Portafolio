@@ -62,7 +62,7 @@ const NavBar = () => {
         }`}
         onClick={toggleMenu}
       >
-        <img src="/system.png" alt="logo system" className="w-12" />
+        <img src="/system.png" alt="logo system" className="w-12 animate-pulse" />
       </div>
     </div>
   );
