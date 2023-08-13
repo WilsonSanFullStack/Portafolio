@@ -3,19 +3,19 @@ import React from "react";
 const Home = () => {
   return (
     <div className="bg-rose-100 min-h-screen pt-12 pb-12 justify-center items-center text-center">
-      <div className="a text-5xl font-bold p-2">
+      <div className="sm:text-4xl text-5xl font-bold p-2 ">
         <h1>!!!BIENVENIDOS!!!</h1>
       </div>
-      <div className="flex">
-        <h2 className="text-2xl p-5 font-bold text-left mt-32 mx-auto">
-          SOY WILSON SANCHEZ
-        </h2>
+      <div className="sm:flex-col sm:justify-center sm:items-center  justify-center">
         <img
           src="/foto.jpg"
           alt="foto personal"
-          className="w-72 h-72 rounded-full  mx-auto"
+          className="sm:rounded-full sm:w-48 sm:h-48 w-72 h-72 rounded-full  mx-auto"
         />
-        <h2 className="font-bold text-2xl text-right mt-36 mx-auto">
+        <h2 className="sm:p-0 sm:mt-1 text-2xl p-5 font-bold  mx-auto">
+          SOY WILSON SANCHEZ
+        </h2>
+        <h2 className="sm:mt-1 sm:mx-auto sm:text-center font-bold text-2xl mx-auto">
           Programador Web Con JavaScript
         </h2>
       </div>

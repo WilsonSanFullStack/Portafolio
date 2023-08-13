@@ -9,6 +9,11 @@ export default {
       fontFamily: {
         'victor-mono': ['"Victor Mono"', 'monospace']
       },
+      screens: {
+        'sm': {'max': '570px'},  // Dispositivos por debajo de 640px
+        'md': '572px',           // Dispositivos medianos (640px y más)
+        // Resto de tus breakpoints
+      }
     },
   },
   plugins: [],
