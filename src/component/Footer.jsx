@@ -9,7 +9,7 @@ function Footer() {
       <div>
       <h1 className='font-bold'>copyright - </h1>
       </div>
-      <div className='w-16 px-2'>
+      <div className='w-16 px-2 animate-spin'>
       <img src="/system.png" alt="logo copyright" />
       </div>
     </div>
