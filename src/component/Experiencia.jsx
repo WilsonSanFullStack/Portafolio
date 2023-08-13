@@ -2,7 +2,7 @@ import React from "react";
 
 const Experiencia = () => {
   return (
-    <div className="pt-10 min-w-screen pb-8 font-semibold bg-rose-100 p-2 text-lg">
+    <div className="pt-14 min-w-screen pb-12 font-semibold bg-rose-100 p-2 text-lg">
       <h1 className="text-center font-bold text-2xl">EXPERIENCIA</h1>
       <div className="text-justify">
         <h2 className="text-center font-bold text-lg">Full Stack Developer Junior</h2>
@@ -24,7 +24,7 @@ const Experiencia = () => {
         </p>
         <ul className="font-bold p-2">
           <li>
-            Desarrollar una página web para diferentes navegadores y
+            1. Desarrollar una página web para diferentes navegadores y
             dispositivos como móviles y desktop con manejo de diferentes
             resoluciones “responsivo” usando tecnologías como: JavaScript,
             React.js, Redux, HTML,CSS, Clerk-React, Axios, Redux-persist,
@@ -32,22 +32,22 @@ const Experiencia = () => {
             PostgreSQL, Sequelize.
           </li>
           <li>
-            Diseñar interfaces y elementos Front End, mantener y optimizar
+            2. Diseñar interfaces y elementos Front End, mantener y optimizar
             sitios web e interfaces.
           </li>
           <li>
-            Desarrollar diferentes tipos de usuarios (Administrador, Standar).
+            3. Desarrollar diferentes tipos de usuarios (Administrador, Standar).
           </li>
           <li>
-            Desarrollar un motor de búsqueda con filtros como: actividades del
+            4. Desarrollar un motor de búsqueda con filtros como: actividades del
             usuario, generales, tipo, presupuesto, locación, cercanía, cantidad
             de personas, duración, fecha.
           </li>
-          <li>Desarrollar sistema de reportes de usuarios o actividades. </li>
-          <li>Desarrollar sistema de review de usuarios o actividades. </li>
-          <li>Desarrollar sistema de valoración de actividades. </li>
-          <li>Desarrollar sistema de chat general y personal. </li>
-          <li>Desarrollar sistema de inicio de sesión con terceros</li>
+          <li>5. Desarrollar sistema de reportes de usuarios o actividades. </li>
+          <li>6. Desarrollar sistema de review de usuarios o actividades. </li>
+          <li>7. Desarrollar sistema de valoración de actividades. </li>
+          <li>8. Desarrollar sistema de chat general y personal. </li>
+          <li>9. Desarrollar sistema de inicio de sesión con terceros</li>
         </ul>
         <p className="text-center text-xl">
           <strong >
@@ -57,7 +57,7 @@ const Experiencia = () => {
         <h4 className="font-bold p-2 tex">
           Proyecto Desarrollado Con Colaboracion de:
         </h4>
-        <div className="p-1 m-1 grid-cols-6 flex justify-center items-center">
+        <div className="p-1 m-1 grid grid-cols-6 sm:grid sm:grid-cols-2  justify-center items-center">
           <section className="section">
             <h5>Wilson Sanchez</h5>
             <h5 >Back-End</h5>

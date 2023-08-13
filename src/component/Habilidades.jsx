@@ -18,7 +18,7 @@ const Habilidades = () => {
         actualizado en el cambiante mundo del desarrollo web.
       </p>
       <h2 className="text-2xl p-1 font-bold">Habilidades</h2>
-        <div className="grid grid-cols-3 m-2 p-1 ">
+        <div className="grid grid-cols-3 m-2 p-1 sm:grid-cols-1 ">
           <div className="bg-rose-200 rounded-xl text-lg m-5 p-2">
             <p className="font-bold text-xl">Front-End</p>
             <p>REACT.JS</p>

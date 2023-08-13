@@ -34,10 +34,10 @@ const NavBar = () => {
   };
 
   return (
-    <div className="bg-blue-300 w-full flex justify-between items-center fixed top-0 z-10">
+    <div className="bg-blue-300 w-full  fixed top-0">
       {showMenu && (
         <div
-          className={`sm:flex sm:flex-col md:flex md:justify-between`}
+          className={`sm:flex sm:flex-col flex justify-between items-center z-10`}
         >
           <NavLink to="/" className="btn-n" onClick={handleNavLinkClick}>
             Home

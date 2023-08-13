@@ -2,7 +2,7 @@ import React from "react";
 
 const Estudios = () => {
   return (
-    <div className="pt-10 min-w-screen min-h-screen pb-8 font-semibold bg-rose-100 grid grid-cols-2 p-2 text-md">
+    <div className="pt-10 min-w-screen min-h-screen pb-8 font-semibold bg-rose-100 grid grid-cols-2 sm:grid-cols-1 sm:text-justify sm:pb-14 p-2 text-md">
       <div className="text-lg">
         <h1 className="text-2xl font-bold text-center p-2">ESTUDIOS Basicos</h1>
         <h2 className="font-bold text-xl text-center p-2">Primaria</h2>
