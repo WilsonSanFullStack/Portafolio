@@ -34,7 +34,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className="bg-gray-950 w-screen  fixed top-0">
+    <div className="bg-gray-950 w-screen  fixed top-0 px-4">
       {showMenu && (
         <div
           className={`sm:flex sm:flex-col flex justify-between items-center z-10`}

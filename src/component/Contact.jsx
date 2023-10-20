@@ -34,12 +34,10 @@ const Contact = () => {
       <div className='w-16 px-2 animate-spin'>
       <img src="/copyright.png" alt="logo copyright" />
       </div>
-      <div>
-      <h1 className='font-bold text-xl'>Copy Right 2023 </h1>
+      <div className="p-2 text-center">
+      <h1 className='font-bold text-xl animate-bounce'>Copy Right 2023 </h1>
       </div>
-      <div className='w-16 px-2 animate-spin'>
-      {/* <img src="/system.png" alt="logo copyright" /> */}
-      </div>
+      
     </div>
     </div>
   );
