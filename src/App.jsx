@@ -21,7 +21,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/habilidades" element={<Habilidades />} />
       </Routes>
-         {pathname !== '*' && <Footer/> }
+         {/* {pathname !== '*' && <Footer/> } */}
     </div>
   );
 }

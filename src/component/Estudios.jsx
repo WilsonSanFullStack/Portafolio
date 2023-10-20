@@ -2,11 +2,11 @@ import React from "react";
 
 const Estudios = () => {
   return (
-    <div className="pt-10 min-w-screen min-h-screen pb-8 font-semibold bg-rose-100 grid grid-cols-2 sm:grid-cols-1 sm:text-justify sm:pb-14 p-2 text-md">
+    <div className="container">
       <div className="text-lg">
-        <h1 className="text-2xl font-bold text-center p-2">ESTUDIOS Basicos</h1>
-        <h2 className="font-bold text-xl text-center p-2">Primaria</h2>
-        <p>
+        <h1 className="title">ESTUDIOS</h1>
+        <h2 className="subTitle">Primaria</h2>
+        <p className='text'>
           Educacion primaria cursada en la Escuela Primaria Mundo Nuevo
           perteneciente al Colegio Nacionalizado Pablo VI del municipio de
           Cubara Boyaca.
@@ -14,8 +14,8 @@ const Estudios = () => {
         <p>
           <strong>Del 2006 al 2009</strong>
         </p>
-        <h2 className="font-bold text-xl p-2 text-center">Secundaria</h2>
-        <p>
+        <h2 className="subTitle">Secundaria</h2>
+        <p className='text'>
           Estudios realizados en el Colegio Agricola Gibaltar del Municipio de
           Toledo Norte de Santander.
         </p>
@@ -23,7 +23,7 @@ const Estudios = () => {
           <strong>Del 2010 al 2013</strong>
         </p>
         <h2 className="font-bold text-xl text-center p-2">Graduacion</h2>
-        <p>
+        <p className='text'>
           Examen Nacional con el Instituto Colombiano para la Evaluación de la
           Educación <strong>ICFES</strong>
         </p>
@@ -34,11 +34,11 @@ const Estudios = () => {
         </p>
       </div>
       <div className="text-md">
-        <h1 className="text-2xl p-1 text-center font-bold">Estudios De Carrera</h1>
-        <h2 className="font-bold text-lg text-center p-1">Carrera Tecnica De Topografia</h2>
-        <p >
+        <h1 className="subTitle">Carrera</h1>
+        <h2 className="subTitle2">Carrera Tecnica De Topografia</h2>
+        <p className='text'>
           Estudios de Topografia realizados en las
-          <strong >
+          {' '}<strong >
             Unidades Tecnologicas de Santander
           </strong>
           donde estuve por 4 semestres los cuales pase con buenas notas dado la
@@ -47,18 +47,18 @@ const Estudios = () => {
         <p>
           <strong >Del 2015 al 2017</strong>
         </p>
-        <h2 className="font-bold text-lg text-center p-1">
+        <h2 className="subTitle2">
           Curso en Ensamble y Reparacion De Equipos De Computo
         </h2>
-        <p >
+        <p className='text'>
           Curso intensivo de 60 horas Realizado en Corporacion Educativa De
           Santander con lo cual estuve ejerciendo como tecnico en una empresa
           durante 3 años.
         </p>
         
         <strong >Diciembre Del 2018</strong>
-        <h2 className="font-bold text-center text-xl p-1">Boot Camp HENRY Full Stack Developer</h2>
-        <p>
+        <h2 className="subTitle2">Boot Camp HENRY Full Stack Developer</h2>
+        <p className='text'>
           Estudios realizados virtualmente durante 4 meses en donde aprendi el
           manejo de <strong>JavaScript</strong> y
           Frameworks como:

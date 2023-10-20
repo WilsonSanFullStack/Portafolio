@@ -34,24 +34,24 @@ const NavBar = () => {
   };
 
   return (
-    <div className="bg-blue-300 w-full  fixed top-0">
+    <div className="bg-gray-950 w-screen  fixed top-0">
       {showMenu && (
         <div
           className={`sm:flex sm:flex-col flex justify-between items-center z-10`}
         >
-          <NavLink to="/" className="btn-n" onClick={handleNavLinkClick}>
+          <NavLink to="/" className="btn-nav" onClick={handleNavLinkClick}>
             Home
           </NavLink>
-          <NavLink to="/habilidades" className="btn-n" onClick={handleNavLinkClick}>
+          <NavLink to="/habilidades" className="btn-nav" onClick={handleNavLinkClick}>
             Habilidades
           </NavLink>
-          <NavLink to="/estudios" className="btn-n" onClick={handleNavLinkClick}>
+          <NavLink to="/estudios" className="btn-nav" onClick={handleNavLinkClick}>
             Estudios
           </NavLink>
-          <NavLink to="/experiencia" className="btn-n" onClick={handleNavLinkClick}>
+          <NavLink to="/experiencia" className="btn-nav" onClick={handleNavLinkClick}>
             Experiencia
           </NavLink>
-          <NavLink to="/contact" className="btn-n" onClick={handleNavLinkClick}>
+          <NavLink to="/contact" className="btn-nav" onClick={handleNavLinkClick}>
             Contacto
           </NavLink>
         </div>
@@ -62,7 +62,7 @@ const NavBar = () => {
         }`}
         onClick={toggleMenu}
       >
-        <img src="/system.png" alt="logo system" className="w-12 animate-pulse" />
+        <img src="/system.png" alt="logo system" className="w-12 animate-pulse bg-lime-100 rounded-full" />
       </div>
     </div>
   );

@@ -1,33 +1,46 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
-    <div className="bg-rose-100 pt-12 min-h-screen flex items-center justify-center">
-      <div className="m-5 grid grid-cols-2 sm:grid-cols-2 justify-center items-center">
-        <div className="contact sm:w-32 sm:h-32">
-          <a href="https://github.com/WilsonSanFullStack">
-            <img src="/github.png" alt="GitHub"  />
-          </a>
+    <div className="container">
+        <h1 className="title">CONTACTO</h1>
+      <div className="flex justify-center items-center flex-col md:flex-row">
+        <div className="contact">
+          <Link to="https://github.com/WilsonSanFullStack">
+            <img src="/github.png" alt="GitHub" />
+          </Link>
         </div>
 
-        <div className="contact sm:w-32 sm:h-32">
+        <div className="contact">
           <a href="https://www.linkedin.com/in/wilsonsan/">
             <img src="/linkendin.png" alt="Linkendin" className=" w-52" />
           </a>
         </div>
 
-        <div className="contact sm:w-32 sm:h-32">
+        <div className="contact">
           <a href="https://mail.google.com/mail/u/4/#inbox?compose=GTvVlcSHxwPqnbChMGcVwjlXWmSFXqFrbNfxkjPmkJGcFfZlPTVVRtGSzRfvRxjsqgRMsPVrnhWJG">
             <img src="/gmail.png" alt="gmail.com" />
           </a>
         </div>
 
-        <div className="contact sm:w-32 sm:h-32">
+        <div className="contact">
           <a href="https://wa.me/qr/4V5CDNDQ4SRGG1">
             <img src="/whatsapp.png" alt="WhatsApp" />
           </a>
         </div>
       </div>
+      <div className='flex justify-center items-center subTitle2'>
+      <div className='w-16 px-2 animate-spin'>
+      <img src="/copyright.png" alt="logo copyright" />
+      </div>
+      <div>
+      <h1 className='font-bold text-xl'>Copy Right 2023 </h1>
+      </div>
+      <div className='w-16 px-2 animate-spin'>
+      {/* <img src="/system.png" alt="logo copyright" /> */}
+      </div>
+    </div>
     </div>
   );
 };

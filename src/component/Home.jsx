@@ -2,25 +2,18 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="bg-rose-100 min-h-screen pt-12 pb-12 justify-center items-center text-center">
-      <div className="sm:text-4xl text-5xl font-bold p-2 ">
-        <h1>!!!BIENVENIDOS!!!</h1>
-      </div>
-      <div className="sm:flex-col sm:justify-center sm:items-center  justify-center">
+    <div className="container md:flex">
+      <div className="md:w-3/12 mx-4">
         <img
           src="/foto.jpg"
           alt="foto personal"
-          className="sm:rounded-full sm:w-48 sm:h-48 w-72 h-72 rounded-full  mx-auto"
+          className="border-gray-600 border-8 rounded-2xl"
         />
-        <h2 className="sm:p-0 sm:mt-1 text-2xl p-5 font-bold  mx-auto">
-          SOY WILSON SANCHEZ
-        </h2>
-        <h2 className="sm:mt-1 sm:mx-auto sm:text-center font-bold text-2xl mx-auto">
-          Programador Web Con JavaScript
-        </h2>
+      <h2 className="font-bold">WILSON SANCHEZ</h2>
+      <h2 className="font-bold">Programador Web</h2>
       </div>
 
-      <p className="text-justify p-8 font-semibold text-lg">
+      <p className="text md:w-8/12 ">
         Bueno aqui les quiero hablar un poco de quien soy, trabajador desde los
         8 años en labores del campo, a mis 12 años reinicie mis estudios en
         segundo primaria aprobando Segundo y Tercero de primaria, a mis 15 años
